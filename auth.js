@@ -124,4 +124,5 @@ app.post("/v1/changePassword", verifyToken, async (req, res) => {
   }
 });
 
-// Don't forget to set your process.env.JWT_SECRET before running the application.
+// run node -e "console.log(require('crypto').randomBytes(32).toString('hex'));" to get JWT_SECRET
+//Don't forget to set your process.env.JWT_SECRET before running the application.
